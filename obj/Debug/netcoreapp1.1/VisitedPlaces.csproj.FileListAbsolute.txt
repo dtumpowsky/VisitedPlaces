@@ -1,0 +1,8 @@
+/Users/Guest/Desktop/VisitedPlaces/bin/Debug/netcoreapp1.1/VisitedPlaces.deps.json
+/Users/Guest/Desktop/VisitedPlaces/bin/Debug/netcoreapp1.1/VisitedPlaces.runtimeconfig.json
+/Users/Guest/Desktop/VisitedPlaces/bin/Debug/netcoreapp1.1/VisitedPlaces.runtimeconfig.dev.json
+/Users/Guest/Desktop/VisitedPlaces/obj/Debug/netcoreapp1.1/VisitedPlaces.AssemblyInfo.cs
+/Users/Guest/Desktop/VisitedPlaces/bin/Debug/netcoreapp1.1/VisitedPlaces.dll
+/Users/Guest/Desktop/VisitedPlaces/bin/Debug/netcoreapp1.1/VisitedPlaces.pdb
+/Users/Guest/Desktop/VisitedPlaces/obj/Debug/netcoreapp1.1/VisitedPlaces.dll
+/Users/Guest/Desktop/VisitedPlaces/obj/Debug/netcoreapp1.1/VisitedPlaces.pdb

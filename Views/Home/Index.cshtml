@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Places You've Visited</title>
+      <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
+      <link rel="stylesheet" type="text/css" href="~/img/styles.css" />
+    </head>
+    <div class= 'container'>
+      <div class= 'jumbotron'>
+        <body>
+        <h1>Places:</h1>
+      </div>
+    <ul>
+      @foreach(var place in Model)
+      {
+      <br>
+      <li><strong>Job Posting #@jobNumber</strong><br>
+      @job.GetCity()<br>
+      @job.GetCountry()<br>
+      @job.GetImage(<a href="url">link text</a>)<br>
+      </li>
+      }
+    </ul>
+    <p><a href="/places/new">Add another place.</a></p>
+    </body>
+  </div>
+</html>
+
+
+
+
+
+
+<h1>To Do List</h1>
+<ul>
+  @foreach(var item in Model)
+  {
+  <li><a href='/items/@item.GetId()'>@item.GetDescription()</li>
+  }
+</ul>
+<p><a href="/items/new">Add a new item.</a></p>
+
+<form action="/items/delete" method="post">
+  <button type="submit" name="button">Clear All Items</button>
+</form>
