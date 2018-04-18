@@ -13,33 +13,15 @@
     <ul>
       @foreach(var place in Model)
       {
-      <br>
-      <li><strong>Job Posting #@jobNumber</strong><br>
-      @job.GetCity()<br>
-      @job.GetCountry()<br>
-      @job.GetImage(<a href="url">link text</a>)<br>
-      </li>
+        <br>
+        <li><strong>Place</strong><br>
+        @place.GetCity()<br>
+        @place.GetCountry()<br>
+        <img src="@place.GetImage()"><br>
+        </li>
       }
     </ul>
     <p><a href="/places/new">Add another place.</a></p>
     </body>
   </div>
 </html>
-
-
-
-
-
-
-<h1>To Do List</h1>
-<ul>
-  @foreach(var item in Model)
-  {
-  <li><a href='/items/@item.GetId()'>@item.GetDescription()</li>
-  }
-</ul>
-<p><a href="/items/new">Add a new item.</a></p>
-
-<form action="/items/delete" method="post">
-  <button type="submit" name="button">Clear All Items</button>
-</form>

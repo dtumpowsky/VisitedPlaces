@@ -5,7 +5,7 @@ using VisitedPlaces.Models;
 
 namespace VisitedPlaces.Controllers
 {
-    public class PlacesController : Controller
+    public class HomeController : Controller
     {
         [HttpGet("/")]
         public ActionResult Index()
