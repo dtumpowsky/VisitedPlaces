@@ -1,21 +1,20 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <title>Places You've Visited</title>
+      <title>Places</title>
       <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
-      <link rel="stylesheet" type="text/css" href="~/img/styles.css" />
+      <link rel="stylesheet" type="text/css" href="~/css/styles.css" />
     </head>
     <div class= 'container'>
       <div class= 'jumbotron'>
         <body>
-        <h1>Places:</h1>
+        <h1>Places You've Visited:</h1>
       </div>
     <ul>
       @foreach(var place in Model)
       {
         <br>
-        <li><strong>Place</strong><br>
-        @place.GetCity()<br>
+        <li><strong>@place.GetCity()<br></strong>       
         @place.GetCountry()<br>
         <img src="@place.GetImage()"><br>
         </li>
